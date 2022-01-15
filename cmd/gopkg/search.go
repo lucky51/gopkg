@@ -14,7 +14,7 @@ var top int
 var greenFun, YellowFunc = color.New(color.FgGreen).SprintFunc(), color.New(color.FgYellow).SprintFunc()
 var searchCmd = &cobra.Command{
 	Use:   "search",
-	Short: "s",
+	Short: "search go.dev package",
 	Run: func(cmd *cobra.Command, args []string) {
 		if keyWord == "" {
 			cmd.Println("please input package keyword")

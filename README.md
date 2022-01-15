@@ -1,13 +1,13 @@
 # gopkg
  
 
-* search go packages from go.dev by keyword
+** search go.dev  packages  by keyword **
 
 ## Usage
 
-** install 
+** install ** 
 ```shell 
-go install github.com/lucky51/gopkg/cmd/gopkg
+go install github.com/lucky51/gopkg/cmd/gopkg@latest
 ```
 ```shell 
 gopkg search -k colly
